@@ -49,7 +49,7 @@ function renderFavorite(favoriteContainer) {
     div.setAttribute("id", id);
 
     // path to redirect to the character details page when user click on character titles
-    let detailsPath = `../pages/characterdetails.html#${id}`;
+    let detailsPath = `../Web_page/favorite.html#${id}`;
     div.innerHTML = `
         <img class="poster" src=${path}.jpg alt="">
         <div class="card-body">
